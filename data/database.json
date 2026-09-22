@@ -1,0 +1,392 @@
+{
+  "businesses": [
+    {
+      "id": "radiaance-dentistry-surat",
+      "name": "Radiaance Dentistry",
+      "slug": "radiaance",
+      "city": "Surat",
+      "logo": "/logo.svg",
+      "instagramUrl": "https://www.instagram.com/radiaance._.dentistry/",
+      "googleReviewUrl": "https://www.google.com/search?q=radiaance+dentistry+surat&oq=radiaance+dentistry+surat&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyDQgGEAAYhgMYgAQYigXSAQg2NDY2ajBqNKgCALACAQ&sourceid=chrome&source=chrome.ob&ie=UTF-8#lrd=0x3be04def3d54f6f7:0x6040fa360bcfa0bf,3,,,,",
+      "expressMode": true,
+      "theme": {
+        "primaryColor": "#0E7490",
+        "secondaryColor": "#0284C7",
+        "accentColor": "#14B8A6"
+      },
+      "welcomeHeading": "Your smile matters to us.",
+      "welcomeSubtext": "Take a moment to share your genuine experience with us.",
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "id": "prompt-5-1",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 5,
+      "promptText": "Tell us what you appreciated most about your visit.",
+      "starterText": "I had a wonderful visit at Radiaance Dentistry. The care and attention to detail were exceptional, and the team made the entire experience comfortable.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-5-2",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 5,
+      "promptText": "What did you like about the doctor, staff, treatment or overall experience?",
+      "starterText": "Dr. and the entire staff at Radiaance Dentistry were extremely welcoming, polite, and professional. The treatment was gentle and thoroughly explained.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-5-3",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 5,
+      "promptText": "What made your visit comfortable?",
+      "starterText": "Radiaance Dentistry has a very clean, modern and calming environment. The staff ensured I was comfortable and pain-free throughout my procedure.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-4-4",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 4,
+      "promptText": "What went well during your visit?",
+      "starterText": "I had a good experience at Radiaance Dentistry. The clinic is very well maintained, and the treatment was handled smoothly.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-4-5",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 4,
+      "promptText": "What part of your experience did you appreciate?",
+      "starterText": "The consultation at Radiaance Dentistry was clear and helpful. The dental team answered all my questions patiently.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-3-6",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 3,
+      "promptText": "What worked well for you?",
+      "starterText": "The treatment at Radiaance Dentistry was fine and the team was polite. A couple of areas could be smoother, but overall an okay visit.",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-3-7",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 3,
+      "promptText": "What could have made your experience better?",
+      "starterText": "Here is my honest feedback on what could be improved regarding appointment scheduling or wait times at Radiaance Dentistry: ",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-2-8",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 2,
+      "promptText": "What happened during your visit?",
+      "starterText": "I want to share my candid experience regarding my recent visit to Radiaance Dentistry so the team can address this: ",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-2-9",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 2,
+      "promptText": "What could we improve?",
+      "starterText": "My visit did not meet expectations in terms of: ",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-1-10",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 1,
+      "promptText": "What could we improve?",
+      "starterText": "I was not satisfied with my experience at Radiaance Dentistry. Specifically: ",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    },
+    {
+      "id": "prompt-1-11",
+      "businessId": "radiaance-dentistry-surat",
+      "rating": 1,
+      "promptText": "How can we make your next experience better?",
+      "starterText": "To improve patient satisfaction, I recommend the clinic focus on: ",
+      "active": true,
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    }
+  ],
+  "qrCodes": [
+    {
+      "id": "qr-radiaance-dentistry-surat",
+      "businessId": "radiaance-dentistry-surat",
+      "destinationPath": "/review/radiaance",
+      "createdAt": "2026-09-22T06:13:59.228Z",
+      "updatedAt": "2026-09-22T06:13:59.228Z"
+    }
+  ],
+  "analyticsEvents": [
+    {
+      "id": "event-1790058037948-lixn",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "qr_scan",
+      "sessionId": "ses_1790056443863_41qa9cs",
+      "timestamp": "2026-09-22T06:20:37.948Z"
+    },
+    {
+      "id": "event-1790058081108-st8o",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 5,
+      "sessionId": "ses_1790056443863_41qa9cs",
+      "timestamp": "2026-09-22T06:21:21.108Z"
+    },
+    {
+      "id": "event-1790058081126-n36j",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_editor_opened",
+      "rating": 5,
+      "sessionId": "ses_1790056443863_41qa9cs",
+      "timestamp": "2026-09-22T06:21:21.127Z"
+    },
+    {
+      "id": "event-1790058154707-krys",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_copied",
+      "rating": 5,
+      "sessionId": "ses_1790056443863_41qa9cs",
+      "timestamp": "2026-09-22T06:22:34.707Z"
+    },
+    {
+      "id": "event-1790058154726-sbpz",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "google_opened",
+      "rating": 5,
+      "sessionId": "ses_1790056443863_41qa9cs",
+      "timestamp": "2026-09-22T06:22:34.726Z"
+    },
+    {
+      "id": "event-1790058400123-ei9g",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "qr_scan",
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:26:40.123Z"
+    },
+    {
+      "id": "event-1790058406585-btnx",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:26:46.585Z"
+    },
+    {
+      "id": "event-1790058406613-r1o1",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_editor_opened",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:26:46.613Z"
+    },
+    {
+      "id": "event-1790058415821-qivd",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_copied",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:26:55.821Z"
+    },
+    {
+      "id": "event-1790058415906-obxc",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "google_opened",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:26:55.906Z"
+    },
+    {
+      "id": "event-1790058483529-1j7x",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "instagram_opened",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:28:03.529Z"
+    },
+    {
+      "id": "event-1790058485188-6cy3",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "flow_completed",
+      "rating": 4,
+      "sessionId": "ses_1790058400111_dg2omji",
+      "timestamp": "2026-09-22T06:28:05.188Z"
+    },
+    {
+      "id": "event-1790058523036-fajf",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "qr_scan",
+      "sessionId": "ses_1790058523021_f7pgs5x",
+      "timestamp": "2026-09-22T06:28:43.036Z"
+    },
+    {
+      "id": "event-1790058541745-2gke",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 4,
+      "sessionId": "ses_1790058523021_f7pgs5x",
+      "timestamp": "2026-09-22T06:29:01.745Z"
+    },
+    {
+      "id": "event-1790058541758-pk9x",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_editor_opened",
+      "rating": 4,
+      "sessionId": "ses_1790058523021_f7pgs5x",
+      "timestamp": "2026-09-22T06:29:01.758Z"
+    },
+    {
+      "id": "event-1790058549542-cj2m",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "starter_selected",
+      "rating": 4,
+      "sessionId": "ses_1790058523021_f7pgs5x",
+      "timestamp": "2026-09-22T06:29:09.542Z"
+    },
+    {
+      "id": "event-1790058551096-qf7d",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "starter_selected",
+      "rating": 4,
+      "sessionId": "ses_1790058523021_f7pgs5x",
+      "timestamp": "2026-09-22T06:29:11.096Z"
+    },
+    {
+      "id": "event-1790060204725-5jsm",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "qr_scan",
+      "rating": 5,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:56:44.725Z"
+    },
+    {
+      "id": "event-1790060224468-zjs6",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_copied",
+      "rating": 5,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:57:04.468Z"
+    },
+    {
+      "id": "event-1790060224549-gpyn",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "google_opened",
+      "rating": 5,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:57:04.549Z"
+    },
+    {
+      "id": "event-1790060244920-ao9r",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "flow_completed",
+      "rating": 5,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:57:24.921Z"
+    },
+    {
+      "id": "event-1790060312178-7oh7",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 4,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:58:32.178Z"
+    },
+    {
+      "id": "event-1790060314813-2h9k",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 3,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:58:34.813Z"
+    },
+    {
+      "id": "event-1790060320311-wnuj",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 2,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:58:40.311Z"
+    },
+    {
+      "id": "event-1790060327146-luse",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 1,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:58:47.146Z"
+    },
+    {
+      "id": "event-1790060330547-5bfy",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "rating_selected",
+      "rating": 2,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T06:58:50.547Z"
+    },
+    {
+      "id": "event-1790080591631-wqbe",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "flow_completed",
+      "rating": 2,
+      "sessionId": "ses_1790060204709_e6q6kbb",
+      "timestamp": "2026-09-22T12:36:31.631Z"
+    },
+    {
+      "id": "event-1790082292500-8daw",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "qr_scan",
+      "rating": 5,
+      "sessionId": "ses_1790082292466_rcngj5p",
+      "timestamp": "2026-09-22T13:04:52.500Z"
+    },
+    {
+      "id": "event-1790082304718-2p2z",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "review_copied",
+      "rating": 5,
+      "sessionId": "ses_1790082292466_rcngj5p",
+      "timestamp": "2026-09-22T13:05:04.718Z"
+    },
+    {
+      "id": "event-1790082304734-x83f",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "google_opened",
+      "rating": 5,
+      "sessionId": "ses_1790082292466_rcngj5p",
+      "timestamp": "2026-09-22T13:05:04.734Z"
+    },
+    {
+      "id": "event-1790082333290-gyba",
+      "businessId": "radiaance-dentistry-surat",
+      "eventType": "flow_completed",
+      "rating": 5,
+      "sessionId": "ses_1790082292466_rcngj5p",
+      "timestamp": "2026-09-22T13:05:33.290Z"
+    }
+  ],
+  "adminPasswordHash": "c07d80d5ebeced252a6539b48c2621b935ac0938cbc330ac2c40280bae734691"
+}

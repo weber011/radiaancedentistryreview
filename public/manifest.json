@@ -1,0 +1,16 @@
+{
+  "name": "Radiaance Dentistry Review Experience",
+  "short_name": "Radiaance Reviews",
+  "description": "Share your genuine experience with Radiaance Dentistry, Surat",
+  "start_url": "/review/radiaance",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0E7490",
+  "icons": [
+    {
+      "src": "/tooth-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

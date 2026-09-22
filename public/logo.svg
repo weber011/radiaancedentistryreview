@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="10" y1="10" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E7490" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <!-- Tooth Icon Mark -->
+  <g transform="translate(10, 10) scale(0.6)">
+    <rect x="2" y="2" width="96" height="96" rx="24" fill="#F0FDFA" stroke="#CCFBF1" stroke-width="2" />
+    <path d="M34 24C22 24 18 36 18 48C18 62 26 74 35 84C38 88 43 85 44 79C45 70 47 58 50 58C53 58 55 70 56 79C57 85 62 88 65 84C74 74 82 62 82 48C82 36 78 24 66 24C58 24 53 29 50 31C47 29 42 24 34 24Z" 
+          fill="url(#logoGrad)" />
+    <path d="M28 34C24 40 24 50 28 58" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.75" />
+    <path d="M72 16L74 22L80 24L74 26L72 32L70 26L64 24L70 22Z" fill="#F59E0B" />
+  </g>
+  <!-- Brand Text -->
+  <text x="82" y="42" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" letter-spacing="1.5" fill="#0F172A">
+    RADIAANCE
+  </text>
+  <text x="82" y="60" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" letter-spacing="3.5" fill="#0E7490">
+    DENTISTRY • SURAT
+  </text>
+</svg>
