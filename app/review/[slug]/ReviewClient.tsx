@@ -446,13 +446,13 @@ export default function ReviewClient({ business, prompts }: ReviewClientProps) {
               <div
                 className="glass-box-pink"
                 style={{
-                  padding: '16px',
+                  padding: 'clamp(14px, 3.5vw, 18px)',
                   borderRadius: '22px',
                   textAlign: 'center',
                   marginBottom: '20px',
                 }}
               >
-                <div style={{ fontSize: '0.86rem', fontWeight: 700, color: '#334155', marginBottom: '10px' }}>
+                <div style={{ fontSize: '0.86rem', fontWeight: 700, color: '#334155', marginBottom: '12px' }}>
                   Select your experience:
                 </div>
                 <div
@@ -460,7 +460,10 @@ export default function ReviewClient({ business, prompts }: ReviewClientProps) {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '10px',
+                    gap: 'clamp(6px, 2.2vw, 12px)',
+                    width: '100%',
+                    maxWidth: '340px',
+                    margin: '0 auto',
                   }}
                 >
                   {[1, 2, 3, 4, 5].map((starValue) => {
@@ -479,24 +482,27 @@ export default function ReviewClient({ business, prompts }: ReviewClientProps) {
                         style={{
                           background: isSelected
                             ? 'linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%)'
-                            : 'rgba(255, 255, 255, 0.75)',
-                          border: isSelected ? '1.5px solid #F59E0B' : '1px solid rgba(226, 232, 240, 0.8)',
-                          borderRadius: '16px',
-                          width: '52px',
-                          height: '52px',
+                            : 'rgba(255, 255, 255, 0.8)',
+                          border: isSelected ? '1.5px solid #F59E0B' : '1px solid rgba(226, 232, 240, 0.85)',
+                          borderRadius: 'clamp(12px, 3vw, 16px)',
+                          flex: '1 1 0',
+                          maxWidth: '54px',
+                          minWidth: '42px',
+                          height: 'clamp(46px, 12vw, 54px)',
                           cursor: 'pointer',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
+                          padding: 0,
                           transition: 'transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease',
-                          transform: isHovered || rating === starValue ? 'scale(1.18)' : 'scale(1)',
+                          transform: isHovered || rating === starValue ? 'scale(1.15)' : 'scale(1)',
                           boxShadow: isSelected
                             ? '0 6px 16px rgba(245, 158, 11, 0.35)'
                             : '0 2px 6px rgba(0,0,0,0.03)',
                         }}
                       >
                         <Star
-                          size={28}
+                          size={26}
                           color={isFilled ? '#F59E0B' : '#94A3B8'}
                           fill={isFilled ? '#F59E0B' : 'transparent'}
                           style={{
@@ -508,7 +514,7 @@ export default function ReviewClient({ business, prompts }: ReviewClientProps) {
                     );
                   })}
                 </div>
-                <div style={{ fontSize: '0.82rem', color: '#D97706', fontWeight: 600, marginTop: '8px' }}>
+                <div style={{ fontSize: '0.82rem', color: '#D97706', fontWeight: 600, marginTop: '10px' }}>
                   {rating} of 5 Stars Selected
                 </div>
               </div>
