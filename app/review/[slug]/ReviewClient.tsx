@@ -178,18 +178,25 @@ export default function ReviewClient({ business, prompts }: ReviewClientProps) {
   };
 
   // One-click: Copy review + Launch Google Review
-  const handlePostOnGoogle = async () => {
+  // IMPORTANT: window.open() MUST be called synchronously (before any await)
+  // because iOS Safari and Android Chrome block popups triggered after async gaps.
+  const handlePostOnGoogle = () => {
     const textToCopy = reviewText.trim();
-    if (textToCopy) {
-      await copyTextToClipboard(textToCopy);
-      setCopiedSuccess(true);
-      logEvent('review_copied', sessionId, rating);
-    }
-    logEvent('google_opened', sessionId, rating);
-    setGoogleOpened(true);
 
-    // Open Google Review modal URL
+    // ✅ STEP 1: Open Google FIRST — synchronously within the click handler (no popup block)
+    setGoogleOpened(true);
+    logEvent('google_opened', sessionId, rating);
     window.open(business.googleReviewUrl, '_blank', 'noopener,noreferrer');
+
+    // ✅ STEP 2: Copy to clipboard AFTER (async is fine here, window is already open)
+    if (textToCopy) {
+      copyTextToClipboard(textToCopy).then((ok) => {
+        if (ok) {
+          setCopiedSuccess(true);
+          logEvent('review_copied', sessionId, rating);
+        }
+      });
+    }
   };
 
   return (
